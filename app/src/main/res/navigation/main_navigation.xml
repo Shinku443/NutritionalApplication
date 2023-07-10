@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/manualInputFragment">
+
+    <fragment
+        android:id="@+id/manualInputFragment"
+        android:name="com.example.nutritionalapplication.ui.ManualInputFragment"
+        tools:layout="@layout/manual_input_screen"
+        android:label="ManualInputFragment" />
+
+    <fragment
+        android:id="@+id/qrScanFragment"
+        android:name="com.example.nutritionalapplication.ui.ManualInputFragment"
+        tools:layout="@layout/qr_scan_fragment"
+        android:label="QRScanFragment" />
+</navigation>
